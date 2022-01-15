@@ -25,16 +25,20 @@ nav{
     align-items: center;
     color: #3A3A3A;
 }
-nav a{
-    text-decoration: none;
-    color: #3A3A3A
-}
 nav ul{
     display: flex;
 }
 nav li{
     list-style: none;
     margin-left: 36px;
+}
+nav li:hover{
+    background-color: pink;
+    border-radius: 5px;
+}
+nav a{
+    text-decoration: none;
+    color: #3A3A3A
 }
 
 /* ----------------
