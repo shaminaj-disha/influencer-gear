@@ -84,11 +84,16 @@ Start Journey Part
 /* Animation added */
 
 .start-journey-image{
+    width: 475px;
+    height: 475px;
+    background: url(../images/circle-design.svg) no-repeat center center/cover;
+}
+.start-journey-image img{
     width: 440px;
     height: 414px;
     transition: transform 2s;
 }
-.start-journey-image:hover{
+.start-journey-image img:hover{
     transform: rotate(360deg);
 }
 .link-button{
