@@ -1,8 +1,13 @@
-/* google fonts */
+/* ----------
+google fonts
+------------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-/* common styles or utilities */
+/* -------------------------
+common styles or utilities
+--------------------------- */
+
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -31,6 +36,11 @@ nav li{
     list-style: none;
     margin-left: 36px;
 }
+
+/* ----------------
+Start Journey Part
+------------------- */
+
 .container{
     width: 100%;
     display: flex;
@@ -47,10 +57,13 @@ nav li{
     justify-content: space-between;
     align-items: center;
 }
+
+/* Animation added */
+
 .blog-content{
     width: 582px;
     height: 414px;
-    transition: background-color 2s, transform 2s;
+    transition: background-color 2s ease-in, transform 2s ease-in-out;
 }
 .blog-content:hover{
     transform: scale(1.2);
@@ -59,12 +72,14 @@ nav li{
 .blog-content h1{
     font-size: 52px;
 }
+
+/* Animation added */
+
 .blog-image{
     width: 440px;
     height: 414px;
     transition: transform 2s;
 }
-/* Animation added */
 .blog-image:hover{
     transform: rotate(360deg);
 }
@@ -80,6 +95,13 @@ nav li{
 .fa-arrow-right{
     margin-left: 5px;
 }
+
+/* ---------
+Logo Part
+------------ */
+
+/* Animation added */
+
 .logo-container{
     width: 100%;
     display: flex;
@@ -103,6 +125,11 @@ hr{
     justify-content: space-between;
     align-items: center;
 }
+
+/* ------------------------
+Popular Collections Part
+-------------------------- */
+
 .collections-container{
     width: 100%;
     display: flex;
@@ -125,6 +152,9 @@ hr{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
 }
+
+/* Animation added */
+
 .collection-items{
     width: 329px;
     height: 476px;
@@ -166,6 +196,16 @@ hr{
     margin-top: 50px;
     color: #E02C6D;
 }
+.right-float:hover{
+    background-color: pink;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+/* ---------------------
+Discover Products Part
+----------------------- */
+
 .last-container{
     width: 100%;
     display: flex;
@@ -180,6 +220,9 @@ hr{
     justify-content: space-between;
     align-items: center;
 }
+
+/* Animation added */
+
 .featured-product-image {
     width: 404px;
     height: 270px;
@@ -193,7 +236,7 @@ hr{
     width: 610px;
     height: 224px;
     padding-bottom: 110px;
-    transition: background-color 2s, transform 2s;
+    transition: background-color 2s ease-in, transform 2s ease-in-out;
 }
 .featured-product-content:hover{
     background-color: lightblue;
@@ -206,7 +249,12 @@ hr{
 .featured-product-content p{
     color: #6C6C6C;
 }
-footer div{
+
+/* -----------
+Footer Part
+------------ */
+
+footer{
     text-align: center;
     color: #FFFFFF;
     background-color: rgb(2, 2, 46);
@@ -217,6 +265,5 @@ footer .fab{
     font-size: 32px;
     padding-left: 5px;
     padding-right: 5px;
-    color: #FFFFFF;
-    
+    color: #FFFFFF;   
 }
