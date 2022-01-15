@@ -97,7 +97,7 @@ hr{
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.container h2{
+.collections-container h2{
     font-size: 28px;
 }
 #popular-collection-h2{
@@ -167,6 +167,7 @@ hr{
 .last-container-items .featured-product-content{
     width: 610px;
     height: 224px;
+    padding-bottom: 100px;
 }
 .featured-product-content h1{
     font-size: 38px;
