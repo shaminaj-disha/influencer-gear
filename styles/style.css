@@ -141,6 +141,7 @@ hr{
     color: #787885;
 }
 .right-float{
+    text-decoration: none;
     margin-left: 78%;
     margin-top: 50px;
     color: #E02C6D;
@@ -167,7 +168,7 @@ hr{
 .last-container-items .featured-product-content{
     width: 610px;
     height: 224px;
-    padding-bottom: 100px;
+    padding-bottom: 110px;
 }
 .featured-product-content h1{
     font-size: 38px;
