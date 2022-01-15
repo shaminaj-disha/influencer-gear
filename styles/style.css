@@ -25,6 +25,12 @@ nav{
     align-items: center;
     color: #3A3A3A;
 }
+.menu-bar {
+    display: none;
+}
+#shopping-cart{
+    display: none;
+}
 nav ul{
     display: flex;
 }
@@ -278,3 +284,370 @@ footer .fab{
     padding-right: 5px;
     color: #FFFFFF;   
 }
+
+
+
+/* -----------------
+    Media Quaries
+------------------- */
+
+/* Mobile Devices */
+
+@media only screen and (max-width: 688px) {
+    body{
+        width: 80%;
+    }
+    header{
+        width: 120%;
+    }
+    footer{
+        width: 135%;
+    }
+    nav {
+        margin-left: 10px;
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .menu-bar {
+        display: block;
+    }
+    .menu-bar .menu-item{
+        width: 45px;
+        height: 5px;
+        margin: 7px 0px;
+        background-color: black;
+        border-radius: 5px;
+    }
+    #shopping-cart{
+        display: block;
+    }
+    nav ul {
+        display: none;
+    }
+    .start-journey-container{
+        margin: 12%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .start-journey-container-items{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .start-journey-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .start-journey-content h1{
+        text-align: center;
+        font-size: 28px;
+    }
+    .start-journey-content p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .link-button{
+        width: 140px;
+        padding: 10px 24px;
+    }
+    .start-journey-image img{
+        margin-left: 16%;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    hr{
+        display: none;
+    }
+    .logo-container{
+        width: 120%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-container-items{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .collections-container{
+        margin-left: 12%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .popular-collectons{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .discover-product-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .discover-product-container-items{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .discover-product-image{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .discover-product-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .right-float{
+        margin-left: 65%;
+    }
+    .discover-product-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .discover-product-container-items{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .discover-product-image img{
+        margin-left: 25%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .discover-product-content{
+        margin-left: 25%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .discover-product-content h1{
+        font-size: 28px;
+        text-align: center;
+    }
+    .discover-product-content p{
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+/* Tablet Devices */
+
+@media only screen and (min-width: 688px) and (max-width: 1180px){
+
+    nav{
+        width: 98%;
+    }
+
+    .nav li{
+        margin-left: 1%;
+    }
+    .start-journey-content{
+        width: 100%
+    }
+    .start-journey-content h1{
+        font-size: 28px;
+    }
+    .start-journey-content p{
+        font-size: 14px;
+    }
+    .start-journey-image img{
+        width: 100%;
+    }
+    .logo-container{
+        width: 90%;
+        display: flex;
+    }
+    .collections-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+    .popular-collectons{
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5%;
+    }
+
+    .discover-product-container{
+        margin-top: 70%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    .discover-product-container-items{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .discover-product-content{
+        margin-left: 5%;
+        width: 100%;
+    }
+    .discover-product-content h1{
+        font-size: 28px;
+    }
+    .discover-product-content p{
+        font-size: 14px;
+    }
+    .discover-product-image img{
+        width: 100%;
+        height: 80%;
+    }
+
+}
+
+/*
+
+
+@media only screen and (max-width: 688px) {
+    body{
+        width: 90%;
+    }
+    header, footer{
+        width: 110%;;
+    }
+    nav {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .menu-bar {
+        display: block;
+    }
+    .menu-bar .menu-item{
+        width: 45px;
+        height: 5px;
+        margin: 7px 0px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .navigation ul {
+        display: none
+    }
+    .container{
+        width: 90%;
+        margin-left: 10%;
+    }
+    .section-title{
+        text-align: center;
+    }
+    .players{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .player{
+        flex-direction: column;
+    }
+    .blogs{
+        grid-template-columns: 1fr;
+    }
+    .blog .thumbnail img {
+        height:100px;
+        width: 120px;
+    }
+    .blog-info h3 {
+        margin: 0;
+        font-size: 18px;
+    }
+    .courses {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .course {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 110%;
+        margin-top: 10%;
+    }
+    .course-detail h3 {
+        margin: 0;
+        font-size: 18px;
+    }
+    .course .course-banner img {
+       width: 100%;
+       height: 80%;
+    }
+}
+
+/* Tablet Devices */
+
+/*
+@media only screen and (min-width: 688px) and (max-width: 1180px){
+    header, footer{
+        width: 104%;
+    }
+    nav {
+        width: 90%;
+    }
+    .container{
+        width: 96%;
+        margin-left: 4%;
+    }
+    .section-title{
+        text-align: center;
+    }
+    .players, .blogs, .courses{
+        grid-template-columns: repeat(2,1fr);
+        align-self: center;
+        justify-self: center;
+    }
+    .player, .blog, .course{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+*/
