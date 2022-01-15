@@ -57,8 +57,6 @@ Start Journey Part
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(images/circle-design.svg);
-    background-repeat: no-repeat;
     margin-bottom: 100px;
 }
 .start-journey-container-items{
@@ -285,15 +283,20 @@ footer .fab{
     color: #FFFFFF;   
 }
 
-
-
 /* -----------------
     Media Quaries
 ------------------- */
 
-/* Mobile Devices */
+/* --------------
+Mobile Devices
+---------------- */
 
 @media only screen and (max-width: 688px) {
+
+/* -------------------------
+common styles or utilities
+--------------------------- */
+
     body{
         width: 80%;
     }
@@ -326,6 +329,9 @@ footer .fab{
     nav ul {
         display: none;
     }
+
+    /* Start Journey Part */
+
     .start-journey-container{
         margin: 12%;
         width: 100%;
@@ -371,6 +377,9 @@ footer .fab{
     hr{
         display: none;
     }
+
+    /* Logo Part */
+
     .logo-container{
         width: 120%;
         display: flex;
@@ -382,6 +391,9 @@ footer .fab{
         display: flex;
         flex-wrap: wrap;
     }
+    
+    /* Collection Part */
+
     .collections-container{
         margin-left: 12%;
         width: 100%;
@@ -397,6 +409,18 @@ footer .fab{
         align-items: center;
         justify-content: center;
     }
+    .collection-items{
+        width: 280px;
+    }
+    .collection-image img{
+        width: 260px;
+    }
+    .right-float{
+        margin-left: 65%;
+    }
+ 
+    /* Discover Product Part  */
+
     .discover-product-container{
         width: 100%;
         display: flex;
@@ -410,7 +434,7 @@ footer .fab{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
+    }   
     .discover-product-image{
         width: 100%;
         display: flex;
@@ -418,32 +442,8 @@ footer .fab{
         align-items: center;
         justify-content: center;
     }
-    .discover-product-content{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .right-float{
-        margin-left: 65%;
-    }
-    .discover-product-container{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .discover-product-container-items{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
     .discover-product-image img{
-        margin-left: 25%;
+        margin-left: 35%;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -451,7 +451,7 @@ footer .fab{
         justify-content: center;
     }
     .discover-product-content{
-        margin-left: 25%;
+        margin-left: 35%;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -468,17 +468,23 @@ footer .fab{
     }
 }
 
-/* Tablet Devices */
+/* --------------
+Tablet Devices
+--------------- */
 
 @media only screen and (min-width: 688px) and (max-width: 1180px){
+
+    /* Navigation Part */
 
     nav{
         width: 98%;
     }
-
     .nav li{
         margin-left: 1%;
     }
+
+    /* Start Journey Part */
+
     .start-journey-content{
         width: 100%
     }
@@ -491,25 +497,30 @@ footer .fab{
     .start-journey-image img{
         width: 100%;
     }
+    
+    /* Logo Part */
+
     .logo-container{
         width: 90%;
         display: flex;
     }
     .collections-container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
     .popular-collectons{
         width: 80%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 5%;
     }
+
+    /* Discover Product Part */
 
     .discover-product-container{
         margin-top: 70%;
@@ -543,111 +554,3 @@ footer .fab{
     }
 
 }
-
-/*
-
-
-@media only screen and (max-width: 688px) {
-    body{
-        width: 90%;
-    }
-    header, footer{
-        width: 110%;;
-    }
-    nav {
-        width: 90%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .menu-bar {
-        display: block;
-    }
-    .menu-bar .menu-item{
-        width: 45px;
-        height: 5px;
-        margin: 7px 0px;
-        background-color: white;
-        border-radius: 5px;
-    }
-    .navigation ul {
-        display: none
-    }
-    .container{
-        width: 90%;
-        margin-left: 10%;
-    }
-    .section-title{
-        text-align: center;
-    }
-    .players{
-        grid-template-columns: repeat(2,1fr);
-    }
-    .player{
-        flex-direction: column;
-    }
-    .blogs{
-        grid-template-columns: 1fr;
-    }
-    .blog .thumbnail img {
-        height:100px;
-        width: 120px;
-    }
-    .blog-info h3 {
-        margin: 0;
-        font-size: 18px;
-    }
-    .courses {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .course {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 110%;
-        margin-top: 10%;
-    }
-    .course-detail h3 {
-        margin: 0;
-        font-size: 18px;
-    }
-    .course .course-banner img {
-       width: 100%;
-       height: 80%;
-    }
-}
-
-/* Tablet Devices */
-
-/*
-@media only screen and (min-width: 688px) and (max-width: 1180px){
-    header, footer{
-        width: 104%;
-    }
-    nav {
-        width: 90%;
-    }
-    .container{
-        width: 96%;
-        margin-left: 4%;
-    }
-    .section-title{
-        text-align: center;
-    }
-    .players, .blogs, .courses{
-        grid-template-columns: repeat(2,1fr);
-        align-self: center;
-        justify-self: center;
-    }
-    .player, .blog, .course{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-*/
