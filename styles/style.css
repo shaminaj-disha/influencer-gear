@@ -45,7 +45,7 @@ nav a{
 Start Journey Part
 ------------------- */
 
-.container{
+.start-journey-container{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -55,7 +55,7 @@ Start Journey Part
     background-repeat: no-repeat;
     margin-bottom: 100px;
 }
-.container-items{
+.start-journey-container-items{
     width: 80%;
     display: flex;
     justify-content: space-between;
@@ -64,27 +64,27 @@ Start Journey Part
 
 /* Animation added */
 
-.blog-content{
+.start-journey-content{
     width: 582px;
     height: 414px;
     transition: background-color 2s ease-in, transform 2s ease-in-out;
 }
-.blog-content:hover{
+.start-journey-content:hover{
     transform: scale(1.2);
     background-color: lightblue;
 }
-.blog-content h1{
+.start-journey-content h1{
     font-size: 52px;
 }
 
 /* Animation added */
 
-.blog-image{
+.start-journey-image{
     width: 440px;
     height: 414px;
     transition: transform 2s;
 }
-.blog-image:hover{
+.start-journey-image:hover{
     transform: rotate(360deg);
 }
 .link-button{
@@ -123,7 +123,7 @@ hr{
     color: #aaaaaa11;
 }
 .logo-container-items{
-    width: 80%;
+    width: 70%;
     height: 110px;
     display: flex;
     justify-content: space-between;
@@ -160,9 +160,10 @@ Popular Collections Part
 /* Animation added */
 
 .collection-items{
-    width: 329px;
+    width: 324px;
     height: 476px;
-    padding: 12px;
+    padding-top: 12px;
+    padding-bottom: 24px;
     border-radius: 10px;
     box-shadow: 10px 10px 13px rgba(0, 0, 0, 0.1);
     transition: background-color 1s, transform 1s;
@@ -174,8 +175,14 @@ Popular Collections Part
 .collection-image{
     width: 300px;
     height: 256px;
+    margin-left: 12px;
 }
-.product-info span{
+.collection-detail{
+    width: 300px;
+    height: 220px;
+    margin-left: 12px;
+}
+.collection-info span{
     color: #5E6366;
     font-size: 14px;
 }
@@ -191,12 +198,12 @@ Popular Collections Part
     color: #FFC014;
     font-size: 14px;
 }
-.product-delivery p{
+.collection-delivery p{
     color: #787885;
 }
 .right-float{
     text-decoration: none;
-    margin-left: 78%;
+    margin-left: 70%;
     margin-top: 50px;
     color: #E02C6D;
 }
@@ -210,7 +217,7 @@ Popular Collections Part
 Discover Products Part
 ----------------------- */
 
-.last-container{
+.discover-product-container{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -218,7 +225,7 @@ Discover Products Part
     align-items: center;
     margin-bottom: 100px;
 }
-.last-container-items{
+.discover-product-container-items{
     width: 80%;
     display: flex;
     justify-content: space-between;
@@ -227,30 +234,30 @@ Discover Products Part
 
 /* Animation added */
 
-.featured-product-image {
+.discover-product-image {
     width: 404px;
     height: 270px;
     border-radius: 7px;
     transition: transform 2s;
 }
-.featured-product-image:hover{
+.discover-product-image:hover{
     transform: rotate(360deg);
 }
-.featured-product-content{
+.discover-product-content{
     width: 610px;
     height: 224px;
     padding-bottom: 110px;
     transition: background-color 2s ease-in, transform 2s ease-in-out;
 }
-.featured-product-content:hover{
+.discover-product-content:hover{
     background-color: lightblue;
     transform: scale(1.2);
 }
-.featured-product-content h1{
+.discover-product-content h1{
     font-size: 38px;
     color: #0A0826;
 }
-.featured-product-content p{
+.discover-product-content p{
     color: #6C6C6C;
 }
 
