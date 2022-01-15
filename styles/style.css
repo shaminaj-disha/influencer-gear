@@ -50,6 +50,11 @@ nav li{
 .blog-content{
     width: 582px;
     height: 414px;
+    transition: background-color 2s, transform 2s;
+}
+.blog-content:hover{
+    transform: scale(1.2);
+    background-color: lightblue;
 }
 .blog-content h1{
     font-size: 52px;
@@ -57,6 +62,11 @@ nav li{
 .blog-image{
     width: 440px;
     height: 414px;
+    transition: transform 2s;
+}
+/* Animation added */
+.blog-image:hover{
+    transform: rotate(360deg);
 }
 .link-button{
     text-decoration: none;
@@ -76,6 +86,11 @@ nav li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: background-color 2s, transform 2s;
+}
+.logo-container:hover{
+    transform: scale(1.2);
+    background-color: lightblue;
 }
 hr{
     width: 80%;
@@ -116,6 +131,11 @@ hr{
     padding: 12px;
     border-radius: 10px;
     box-shadow: 10px 10px 13px rgba(0, 0, 0, 0.1);
+    transition: background-color 1s, transform 1s;
+}
+.collection-items:hover{
+    transform: scale(1.1);
+    background-color: lightblue;
 }
 .collection-image{
     width: 300px;
@@ -160,15 +180,24 @@ hr{
     justify-content: space-between;
     align-items: center;
 }
-.last-container-items .featured-product-image {
+.featured-product-image {
     width: 404px;
     height: 270px;
     border-radius: 7px;
+    transition: transform 2s;
 }
-.last-container-items .featured-product-content{
+.featured-product-image:hover{
+    transform: rotate(360deg);
+}
+.featured-product-content{
     width: 610px;
     height: 224px;
     padding-bottom: 110px;
+    transition: background-color 2s, transform 2s;
+}
+.featured-product-content:hover{
+    background-color: lightblue;
+    transform: scale(1.2);
 }
 .featured-product-content h1{
     font-size: 38px;
@@ -177,7 +206,7 @@ hr{
 .featured-product-content p{
     color: #6C6C6C;
 }
-footer{
+footer div{
     text-align: center;
     color: #FFFFFF;
     background-color: rgb(2, 2, 46);
@@ -186,7 +215,8 @@ footer{
 }
 footer .fab{
     font-size: 32px;
-    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     color: #FFFFFF;
     
 }
