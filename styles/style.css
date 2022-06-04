@@ -71,11 +71,6 @@ Start Journey Part
 .start-journey-content{
     width: 582px;
     height: 414px;
-    transition: background-color 2s ease-in, transform 2s ease-in-out;
-}
-.start-journey-content:hover{
-    transform: scale(1.2);
-    background-color: lightblue;
 }
 .start-journey-content h1{
     font-size: 52px;
@@ -105,6 +100,9 @@ Start Journey Part
     background-color: #E02C6D;
     font-weight: 700;
 }
+.link-button:hover{
+    background-color: #f7699d;
+}
 .fa-arrow-right{
     margin-left: 5px;
 }
@@ -125,7 +123,7 @@ Logo Part
 }
 .logo-container:hover{
     transform: scale(1.2);
-    background-color: lightblue;
+    background-color: pink;
 }
 hr{
     width: 80%;
@@ -175,11 +173,11 @@ Popular Collections Part
     padding-bottom: 24px;
     border-radius: 10px;
     box-shadow: 10px 10px 13px rgba(0, 0, 0, 0.1);
-    transition: background-color 1s, transform 1s;
+    transition: background-color 1s, transform 1s ease-in-out;
 }
 .collection-items:hover{
     transform: scale(1.1);
-    background-color: lightblue;
+    background-color: pink;
 }
 .collection-image{
     width: 300px;
@@ -217,9 +215,7 @@ Popular Collections Part
     color: #E02C6D;
 }
 .right-float:hover{
-    background-color: pink;
-    padding: 2px;
-    border-radius: 5px;
+    text-decoration: underline;
 }
 
 /* ---------------------
@@ -256,11 +252,6 @@ Discover Products Part
     width: 610px;
     height: 224px;
     padding-bottom: 110px;
-    transition: background-color 2s ease-in, transform 2s ease-in-out;
-}
-.discover-product-content:hover{
-    background-color: lightblue;
-    transform: scale(1.2);
 }
 .discover-product-content h1{
     font-size: 38px;
